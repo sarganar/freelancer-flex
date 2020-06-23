@@ -115,6 +115,10 @@ h3 {
   font-weight: 700;
   font-size: 2.2rem;
   border-radius: 0.5rem;
+  border: none;
+}
+.boton:hover{
+  cursor: pointer;
 }
 /* Main */
 .contenedor {
@@ -206,6 +210,10 @@ legend {
   flex: 1;
   height: 8rem;
 }
-.w-100 {
+.w-100 {/*toma todo el area disponible, el 100%*/
   flex: 0 0 100%;
+}
+.enviar{
+  display: flex;
+  justify-content: flex-end;
 }
